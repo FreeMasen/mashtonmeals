@@ -1,0 +1,110 @@
+Mon Aug 01 2016 07:32:01 GMT-0400 (EDT): listening on 3003
+Mon Aug 01 2016 07:32:10 GMT-0400 (EDT): listening on 3003
+GET / 304 - - 18.436 ms
+GET /css/index.css 304 - - 7.651 ms
+GET /controller.js 304 - - 9.858 ms
+Mon Aug 01 2016 07:32:42 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:32:43 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 129.788 ms
+GET /img/seed.jpg 304 - - 1.450 ms
+GET / 304 - - 1.194 ms
+GET /controller.js 304 - - 6.819 ms
+GET /css/index.css 200 1082 - 11.338 ms
+Mon Aug 01 2016 07:33:46 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:33:46 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 10.489 ms
+GET /img/field.jpg 304 - - 0.743 ms
+GET /img/seed.jpg 304 - - 1.518 ms
+GET / 304 - - 1.054 ms
+GET /css/index.css 200 1076 - 6.784 ms
+GET /controller.js 304 - - 4.005 ms
+Mon Aug 01 2016 07:34:09 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:34:09 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 8.150 ms
+GET /img/field.jpg 304 - - 1.543 ms
+GET /img/seed.jpg 304 - - 1.125 ms
+GET / 304 - - 1.094 ms
+GET /css/index.css 200 1076 - 8.879 ms
+GET /controller.js 304 - - 2.877 ms
+Mon Aug 01 2016 07:34:44 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:34:44 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 7.161 ms
+GET /img/field.jpg 304 - - 0.876 ms
+GET /img/seed.jpg 304 - - 1.009 ms
+GET / 200 1739 - 4.982 ms
+GET /css/index.css 304 - - 1.381 ms
+GET /controller.js 304 - - 1.324 ms
+Mon Aug 01 2016 07:36:09 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:36:09 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 14.703 ms
+GET /img/seed.jpg 304 - - 1.151 ms
+GET / 200 1749 - 2.063 ms
+GET /css/index.css 304 - - 1.913 ms
+GET /controller.js 304 - - 7.071 ms
+Mon Aug 01 2016 07:36:26 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:36:26 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 8.649 ms
+GET /img/seed.jpg 304 - - 2.037 ms
+GET / 200 1753 - 1.144 ms
+GET /css/index.css 304 - - 2.117 ms
+GET /controller.js 304 - - 1.300 ms
+Mon Aug 01 2016 07:36:57 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:36:57 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 3.920 ms
+GET /img/seed.jpg 304 - - 0.457 ms
+GET / 200 1753 - 1.577 ms
+GET /css/index.css 304 - - 0.951 ms
+GET /controller.js 304 - - 0.730 ms
+Mon Aug 01 2016 07:37:13 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:37:13 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 5.683 ms
+GET /img/seed.jpg 304 - - 2.064 ms
+GET / 304 - - 2.588 ms
+GET /css/index.css 200 1000 - 3.313 ms
+GET /controller.js 304 - - 2.659 ms
+Mon Aug 01 2016 07:37:39 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:37:39 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 8.412 ms
+GET /img/field.jpg 304 - - 0.767 ms
+GET /img/seed.jpg 304 - - 2.679 ms
+GET / 200 1874 - 5.556 ms
+GET /css/index.css 304 - - 1.311 ms
+GET /controller.js 304 - - 0.898 ms
+Mon Aug 01 2016 07:40:17 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:40:17 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 10.917 ms
+GET /img/seed.jpg 304 - - 1.537 ms
+GET / 304 - - 2.330 ms
+GET /css/index.css 304 - - 1.839 ms
+GET /controller.js 200 1044 - 4.897 ms
+Mon Aug 01 2016 07:48:10 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:48:10 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 8.498 ms
+GET / 304 - - 1.269 ms
+GET /css/index.css 304 - - 2.074 ms
+GET /controller.js 304 - - 0.844 ms
+Mon Aug 01 2016 07:48:18 GMT-0400 (EDT): get request to /posts
+Mon Aug 01 2016 07:48:18 GMT-0400 (EDT): no error! getting posts from mongo
+GET /posts 304 - - 6.366 ms
+Mon Aug 01 2016 19:10:14 GMT-0400 (EDT): listening on 3003
+GET / 200 1874 - 24.336 ms
+GET /css/index.css 304 - - 7.898 ms
+GET /controller.js 304 - - 2.375 ms
+Mon Aug 01 2016 19:12:29 GMT-0400 (EDT): get request to /posts
+GET /img/field.jpg 304 - - 33.850 ms
+Mon Aug 01 2016 19:12:29 GMT-0400 (EDT): finding all posts
+Mon Aug 01 2016 19:12:29 GMT-0400 (EDT): entered processRequest
+Mon Aug 01 2016 19:12:29 GMT-0400 (EDT): No error! sending 2docs from mongo
+GET /posts 304 - - 131.544 ms
+GET /img/seed.jpg 304 - - 0.995 ms
+GET /reviews 404 20 - 6.777 ms
+GET /robots.txt 404 23 - 13.393 ms
+GET / 200 1874 - 5.513 ms
+GET /about 404 18 - 9.253 ms
+GET /recipes 404 20 - 23.134 ms
+GET /reviews 404 20 - 5.936 ms
+GET /admin.php 404 22 - 8.803 ms
+GET /administrator/index.php 404 36 - 4.344 ms
+GET /wp-login.php 404 25 - 2.189 ms
+GET / 200 1874 - 4.254 ms
+GET /favicon.ico 404 24 - 4.844 ms

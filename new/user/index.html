@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ngapp="newUser">
+<head>
+    <link type="text/css" rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+</head>
+<body>
+<div class="container" ng-controller="newUserController">
+    <nav class="navbar navbar-inverse">
+        <div class="container fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Mashton Meals</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <H1>User Admin</H1>
+    </div>
+    <form class="col-md-2 form-horizontal">
+        <fieldset>
+        <div class="form-group">
+            <label for="usernameInput" class="control-label">Username</label>
+            <input class="form-control" ng-model="user.username" id="usernameInput">
+        </div>
+        <div class="form-group">
+            <label for="passwordInput" class="control-label">Password</label>
+            <input class="form-control" ng-model="user.password" id="passwordInput">
+        </div>
+        </fieldset>
+    </form>
+    <form class="col-md-2 offset-col-md-2 form-horizontal">
+        <fieldset>
+            <label for="userSelect" class="control-label">Current Users</label>
+            <select class="form-control" id="userSelect" ng-repeat="user in users">
+                <option>{{ user.username }}</option>
+            </select>
+        </fieldset>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>

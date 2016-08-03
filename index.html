@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="meals">
+<header>
+    <title>Mashton Meals</title>
+    <link type="text/css" rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/index.css">
+</header>
+<body>
+<div class="wrapper">
+    <nav class="navbar navbar-inverse">
+        <div class="container fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://mashtonmeals.com">Mashton Meals</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a class="navbar-item" href="http://mashtonmeals.com/recipes">Recipes</a></li>
+                <li><a class="navbar-item" href="http://mashtonmeals.com/reviews">Restaurant Reviews</a></li>
+                <li><a class="navbar-item" href="http://mashtonmeals.com/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container main" ng-controller="mealsController">
+        <div class="jumbotron">
+            <h1>Mix them both up</h1>
+        </div>
+        <div ng-repeat="post in posts">
+            <div class="well col-md-4">
+                <div class="container">
+
+                <h2 class="title">{{post.title}}</h2>
+                <p class="date">{{post.date}}</p>
+                    <img class="pull-left" ng-src="{{ post.image }}" width="250px">
+                    <p class="content">{{post.content}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-bottom footer">
+        <div class="navbar-header">
+            <a class="signature navbar-item" href="http://robertmasen.pizza">Build by Robert F. Masen</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>
